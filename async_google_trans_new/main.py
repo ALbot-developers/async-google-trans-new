@@ -180,7 +180,7 @@ class AsyncTranslator:
                     url=self.url,
                     data=freq,
                     headers=headers,
-                    verify_ssl=False,
+                    ssl=False,
                     timeout=timeout,
                     proxy=self.proxies.get("https"),
                 )
@@ -275,7 +275,7 @@ class AsyncTranslator:
                     url=self.url,
                     data=freq,
                     headers=headers,
-                    verify_ssl=False,
+                    ssl=False,
                     timeout=timeout,
                     proxy=self.proxies.get("https"),
                 )
